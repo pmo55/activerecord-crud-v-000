@@ -17,7 +17,11 @@ ActiveRecord::Schema.define(version: 2018_09_11_012219) do
     t.integer "release_date"
     t.string "director"
     t.string "lead"
+<<<<<<< HEAD
     t.boolean "in_theaters"
+=======
+    t.boolean "in_theatres"
+>>>>>>> 97541a3ae46155d30d17f16a60a1881c4ec09854
   end
 
 end
